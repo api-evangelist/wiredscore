@@ -1,8 +1,14 @@
 aid: wiredscore
 name: WiredScore
-description: 'WiredScore is a company surfaced as a portfolio company of bessemer-venture-partners, fifth-wall
-  and added to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'WiredScore is the global standard-setting organization for digital connectivity and smart
+  technology in the built environment. It assesses, benchmarks, and certifies buildings through two
+  programs — WiredScore (digital connectivity) and SmartScore (smart building technology) — across
+  office, residential, industrial, and hotel asset types. Landlords, developers, and occupiers in more
+  than 40 countries use its certifications and its network of Accredited Professionals to demonstrate
+  that a building meets modern technology and connectivity expectations; over 4,000 buildings covering
+  roughly one billion square feet have been certified. WiredScore is a portfolio company of Bessemer
+  Venture Partners and Fifth Wall. As of this enrichment pass it publishes no public API, developer
+  portal, OpenAPI specification, or SDK surface.'
 url: https://raw.githubusercontent.com/api-evangelist/wiredscore/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +17,30 @@ x-backed-by:
 - fifth-wall
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://wiredscore.com/wp-content/uploads/2021/01/tile-wide.png
 tags:
 - Company
 - Vertical Software
+- Real Estate
+- PropTech
+- Building Certification
+- Smart Buildings
+- Digital Connectivity
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://wiredscore.com/en/
+- type: Blog
+  url: https://wiredscore.com/resources/
+- type: SignUp
+  url: https://wiredscore.com/sign-up/
+- type: Support
+  url: https://wiredscore.com/about-us/contact-us/
+- type: TermsOfService
+  url: https://wiredscore.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://wiredscore.com/privacy-policy/
+- type: DomainSecurity
+  url: security/wiredscore-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
