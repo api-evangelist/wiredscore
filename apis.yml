@@ -46,7 +46,7 @@ image: https://wiredscore.com/wp-content/uploads/2021/01/tile-wide.png
 tags:
 - Company
 - Vertical Software
-- Real-Estate
+- Real Estate
 - PropTech
 - Building Certification
 - Smart Buildings
@@ -61,6 +61,7 @@ tags_raw:
 - Smart Buildings
 - Digital Connectivity
 - Sustainability
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
